@@ -13,8 +13,8 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="AnimeListScreen" component={AnimeListScreen} />
-        <Stack.Screen name="AnimeDetailScreen" component={AnimeDetailScreen} />
+        <Stack.Screen name="AnimeListScreen" component={AnimeListScreen} options={{ title: 'Lista de Animes' }} />
+        <Stack.Screen name="AnimeDetailScreen" component={AnimeDetailScreen} options={{ title: 'Detalhes do Animes' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
