@@ -1,11 +1,18 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
 import styles from '../Styles/HomeScreenStyles';
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bem-Vindo!</Text>
+
+      <Text style={styles.title}>Bem-Vindos!</Text>
+
+      <Image 
+        source={{ uri: 'https://i.pinimg.com/originals/33/b5/96/33b596755706c28cb85e041d8deeb7df.jpg' }}
+        style={styles.image}
+      />
+
       <Text style={styles.title}>Catálogo de Animes!</Text>
       <Text style={styles.subtitle}>Explore os melhores animes agora mesmo.</Text>
 

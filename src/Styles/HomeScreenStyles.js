@@ -8,6 +8,11 @@ const styles = StyleSheet.create({
       backgroundColor: '#f0f0f5',
       padding: 20,
     },
+    image: {
+        width: 200,
+        height: 200,
+        marginBottom: 20,
+      },
     title: {
       fontSize: 28,
       fontWeight: 'bold',
